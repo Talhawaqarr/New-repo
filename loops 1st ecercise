@@ -1,0 +1,12 @@
+
+number = int(input("Enter your numbers in 11th: "))
+if  101 > number > 90:
+    print("You got A grade!")
+elif  89 > number > 80:
+    print("You got B grade!")
+elif 79 > number > 70:
+    print("You got C grade!")
+elif number < 70:
+    print("needs improvement")
+else :
+    print("Invalid input")
